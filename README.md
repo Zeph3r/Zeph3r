@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/YOUR_USER_ID?v=4" width="150"/><br>
   <h2 align="center">Hey, I'm Tijan — aka Zeph3r 👋</h2>
 </p>
 
