@@ -1,5 +1,5 @@
 <p align="center">
-  <h2 align="center">Hey, I'm Tijan — aka Zeph3r 👋</h2>
+  <h2 align="center">Hey, I'm Tijan 👋</h2>
 </p>
 
 <p align="center">
