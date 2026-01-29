@@ -94,7 +94,7 @@ Most of my repos are internal work tools that solved specific operational proble
 
 **Languages:** Python, PowerShell, Bash  
 **Cloud:** Azure, AWS (Lambda, DynamoDB, API Gateway)  
-**Endpoint Management:** SCCM, Intune, CrowdStrike Falcon, Tenable  
+**Endpoint Management:** SCCM, Intune, Jamf 
 **Other:** Terraform, FastAPI, Microsoft Graph API, Active Directory
 
 ---
