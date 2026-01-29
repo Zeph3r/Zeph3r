@@ -14,7 +14,7 @@ I solve annoying problems in IT operations—mostly around Windows deployment, e
 
 **Currently focused on:** [installer-intel](https://github.com/Zeph3r/installer-intel), an open-source tool that analyzes Windows installers and tells you how to deploy them silently.
 
-**Tech I use:** Python, PowerShell, FastAPI, Terraform, Azure, CrowdStrike
+**Tech I use:** Python, PowerShell, FastAPI, Terraform, Azure, Power Automate
 
 ---
 
