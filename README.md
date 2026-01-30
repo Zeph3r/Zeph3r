@@ -25,7 +25,7 @@ I solve annoying problems in IT operations—mostly around Windows deployment, e
 
 Tired of guessing `/S` vs `/VERYSILENT` vs `/quiet`? This tool analyzes EXE/MSI installers, detects the type (NSIS, Inno Setup, MSI, etc.), and gives you confidence-scored silent install commands.
 
-Perfect for Intune packaging, SCCM deployments, or just figuring out WTF an installer wants.
+Perfect for Intune packaging, SCCM deployments, or just figuring out what an installer wants.
 ```bash
 pip install installer-intel
 installer-intel analyze setup.exe
