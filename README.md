@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  I build tools for Windows endpoint management and automation
+  I build tools for Windows endpoint management, automation and security
 </p>
 
 ---
