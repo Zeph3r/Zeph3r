@@ -32,8 +32,13 @@ installer-intel analyze setup.exe
 ```
 
 Outputs JSON with install commands, uninstall commands, and detection rules ready for Intune/SCCM.
+Designed for use in security-conscious environments where installers must be validated before deployment.
 
-**Stack:** Python, FastAPI, Terraform, AWS Lambda, DynamoDB
+
+**Current:** Python (CLI), static installer analysis  
+**API (in progress):** FastAPI, AWS Lambda, DynamoDB, Terraform
+
+The API will allow centralizing installer intelligence for use across Intune, SCCM, and internal tooling.
 
 ---
 
