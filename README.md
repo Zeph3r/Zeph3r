@@ -84,7 +84,7 @@ Most of my repos are internal work tools that solved specific operational proble
 - Writing automation that actually gets used in production
 - Packaging software for Windows endpoints (Intune, SCCM)
 - Building APIs and CLIs that make IT operations less painful
-- Security operations (CrowdStrike, Tenable, vulnerability management)
+- Security operations (EDR, network scanners, vulnerability management)
 - Making things work at scale without breaking
 
 **Not interested in:** Theoretical projects, tutorials, or code that never ships
