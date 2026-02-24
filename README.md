@@ -1,75 +1,94 @@
 <p align="center">
-  <h2 align="center">Tijan McClain</h2>
+  <h2 align="center">Hey, I'm Tijan</h2>
 </p>
 
 <p align="center">
-  Windows Endpoint Engineering • Automation • Installer Intelligence
+  I build tools for endpoint management, automation and security
 </p>
 
-## Building: pkgprobe
+---
 
-### https://pkgprobe.io
+### What I Work On
 
-pkgprobe is a Windows installer intelligence platform designed for
-endpoint and security teams.
+I solve operational problems in IT—primarily around Windows deployment, endpoint security, and workflow automation. If it involves packaging software, managing devices at scale, or eliminating repetitive tasks, I’m interested.
 
-It statically analyzes EXE and MSI installers, fingerprints the
-underlying installer engine (NSIS, Inno Setup, InstallShield, Squirrel,
-MSI, and others), and generates confidence-scored silent deployment
-commands.
+**Currently focused on:** [pkgprobe](https://pkgprobe.io) — a Windows installer intelligence platform that analyzes installers and tells you how to deploy them silently.
 
-Instead of manually testing switches or guessing deployment flags,
-pkgprobe inspects the binary and produces structured, deployment-ready
-output.
+**Source:** https://github.com/Zeph3r/installer-intel  
 
-``` bash
+**Tech I use:** Python, PowerShell, FastAPI, Terraform, Azure, Power Automate
+
+---
+
+### pkgprobe
+
+**Windows installer analysis for endpoint teams**
+
+Tired of guessing `/S` vs `/VERYSILENT` vs `/quiet`?
+
+pkgprobe analyzes EXE and MSI installers, detects the underlying installer engine (NSIS, Inno Setup, MSI, InstallShield, Squirrel, etc.), and generates confidence-scored silent install commands.
+
+Ideal for Intune packaging, SCCM deployments, and validating installer behavior before enterprise rollout.
+
+```bash
 pip install installer-intel
 installer-intel analyze setup.exe
 ```
 
-### Output Includes:
+Outputs structured JSON including:
+- Silent install commands  
+- Uninstall commands  
+- Installer type detection  
+- Deployment-ready metadata  
 
--   Silent install commands
--   Uninstall commands
--   Installer type detection
--   Deployment metadata for Intune and SCCM
--   Structured JSON for automation pipelines
+Designed for security-conscious environments where installers must be validated before deployment.
 
-Designed for: - Enterprise packaging teams - Intune and SCCM
-administrators - Security teams validating third-party installers -
-Environments requiring controlled, repeatable deployments
+**Current:** Python CLI, static installer analysis  
+**API (in progress):** FastAPI, AWS Lambda, DynamoDB, Terraform  
 
-------------------------------------------------------------------------
+The API will centralize installer intelligence for use across Intune, SCCM, and internal deployment tooling.
 
-## Architecture Direction
+---
 
-**Current:** - Python CLI - Static binary inspection - Heuristic switch
-inference - Confidence scoring engine
+### What I'm Good At
 
-**In Progress:** - FastAPI-backed intelligence API - Centralized
-installer fingerprint dataset - Infrastructure-as-code deployment
-(Terraform) - Cloud-native analysis pipeline
+- Writing automation that gets used in production
+- Packaging software for Windows endpoints (Intune, SCCM)
+- Building APIs and CLIs that reduce operational friction
+- Security operations (EDR, vulnerability management)
+- Designing systems that scale without breaking
 
-The long-term goal is to build a centralized knowledge layer for Windows
-installer behavior that can be integrated directly into endpoint
-management and security workflows.
+**Not interested in:** Theoretical projects, tutorials, or code that never ships
 
-------------------------------------------------------------------------
+---
 
-## What I Focus On
+### Tech Stack
 
--   Windows software packaging at scale
--   Endpoint deployment automation
--   Reducing operational friction in enterprise IT
--   Bridging endpoint engineering and security
--   Building tooling that ships and gets used in production
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,powershell,terraform,azure,aws,linux,windows,git,github,vscode,fastapi,docker" />
+</p>
 
-
-------------------------------------------------------------------------
-
-## Tech Stack
-
-**Languages:** Python, PowerShell, Bash\
-**Cloud:** Azure, AWS (Lambda, DynamoDB, API Gateway)\
-**Endpoint Management:** SCCM, Intune, Jamf\
+**Languages:** Python, PowerShell, Bash  
+**Cloud:** Azure, AWS (Lambda, DynamoDB, API Gateway)  
+**Endpoint Management:** SCCM, Intune, Jamf  
 **Other:** Terraform, FastAPI, Microsoft Graph API, Active Directory
+
+---
+
+### Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Zeph3r&theme=dark&hide_border=false&border_radius=5.5"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zeph3r&layout=compact&theme=dark&hide_border=false" />
+</p>
+
+---
+
+### Reach Out
+
+Working on Windows packaging, deployment automation, or endpoint tooling?  
+Have feedback on pkgprobe? Open an issue or connect.
+
