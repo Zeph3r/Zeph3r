@@ -1,24 +1,10 @@
-```{=html}
 <p align="center">
-```
-```{=html}
-<h2 align="center">
-```
-Tijan McClain
-```{=html}
-</h2>
-```
-```{=html}
+  <h2 align="center">Tijan McClain</h2>
 </p>
-```
-```{=html}
-<p align="center">
-```
-Windows Endpoint Engineering • Automation • Installer Intelligence
-```{=html}
-</p>
-```
 
+<p align="center">
+  Windows Endpoint Engineering • Automation • Installer Intelligence
+</p>
 ------------------------------------------------------------------------
 
 ## Building: pkgprobe
