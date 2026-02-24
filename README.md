@@ -5,7 +5,6 @@
 <p align="center">
   Windows Endpoint Engineering • Automation • Installer Intelligence
 </p>
-------------------------------------------------------------------------
 
 ## Building: pkgprobe
 
