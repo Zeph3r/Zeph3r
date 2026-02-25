@@ -20,36 +20,6 @@ I solve operational problems in IT—primarily around Windows deployment, endpoi
 
 ---
 
-### pkgprobe
-
-**Windows installer analysis for endpoint teams**
-
-Tired of guessing `/S` vs `/VERYSILENT` vs `/quiet`?
-
-pkgprobe analyzes EXE and MSI installers, detects the underlying installer engine (NSIS, Inno Setup, MSI, InstallShield, Squirrel, etc.), and generates confidence-scored silent install commands.
-
-Ideal for Intune packaging, SCCM deployments, and validating installer behavior before enterprise rollout.
-
-```bash
-pip install installer-intel
-installer-intel analyze setup.exe
-```
-
-Outputs structured JSON including:
-- Silent install commands  
-- Uninstall commands  
-- Installer type detection  
-- Deployment-ready metadata  
-
-Designed for security-conscious environments where installers must be validated before deployment.
-
-**Current:** Python CLI, static installer analysis  
-**API (in progress):** FastAPI, AWS Lambda, DynamoDB, Terraform  
-
-The API will centralize installer intelligence for use across Intune, SCCM, and internal deployment tooling.
-
----
-
 ### What I'm Good At
 
 - Writing automation that gets used in production
