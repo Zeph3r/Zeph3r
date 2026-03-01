@@ -22,13 +22,11 @@ I solve operational problems in IT—primarily around Windows deployment, endpoi
 
 ### What I'm Good At
 
-- Writing automation that gets used in production
+- Writing automation for production workflows and applications
 - Packaging software for Windows endpoints (Intune, SCCM)
 - Building APIs and CLIs that reduce operational friction
 - Security operations (EDR, vulnerability management)
 - Designing systems that scale without breaking
-
-**Not interested in:** Theoretical projects, tutorials, or code that never ships
 
 ---
 
